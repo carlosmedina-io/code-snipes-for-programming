@@ -70,7 +70,7 @@ export default function ToDoApp() {
   const [newToDoTask, setNewToDoTask] = useState('')
   const toDoInputRef = useRef(null)
   
-  const handleToggle = (id) => {
+  const handleToggle = (id) => () => {
     const toDoListUpdated = toDoList.map(task => {
       return task.id === id
         ? { ...task, complete: !task.complete }
@@ -125,7 +125,7 @@ export default function ToDoApp() {
             onChange={handleInputOnChange}
             ref={toDoInputRef}
             onKeyPress={handleInputKeypress}
-            placeholder='Add new task' />
+            placeholder='write and push enter' />
         </DivCenter>
         <RemoveTaskButton
           onClick={handleRemoveCompletedTask}>

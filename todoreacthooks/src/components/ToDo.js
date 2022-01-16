@@ -1,38 +1,47 @@
 import styled from 'styled-components'
+import CheckBox from './CheckBox'
 
-const Task = styled.li`
+const Li = styled.li`
   background: #031956;
+  position: relative;
   list-style: none;
-  padding: 5px 20px;
   box-sizing: border-box;
   height: 60px;
-  line-height: 50px;
-  margin: 0 auto;
+  line-height: 60px;
   cursor: pointer;
   margin-top: 5px;
   border-radius: 15px;
-  letter-spacing: .5px;
+`
+
+const Task = styled.label`
+  position: relative;
+  cursor: pointer;
+  letter-spacing: .7px;
+  padding-left: 45px;
+  display: block;
 `
 
 const Wrapper = styled.div`
   .task-done {
-    color: white;
-    text-decoration:line-through;
-    opacity: .7;
+    color: #F1F1F0;
+    text-decoration: line-through;
   }
   .unfinish-task {
-    color: white;
+    color: #FFFFFF;
   }
 `
 
-export default function ToDo({ task, complete, id, handleToggle }) {
+export default function ToDo({ task, complete, id, handleToggle: handleToggleTask }) {
   return (
     <Wrapper>
-      <Task
-        className={complete ? 'task-done' : 'unfinish-task'}
-        onClick={() => handleToggle(id)}>
-        {task}
-      </Task>
+      <Li>
+          <Task
+            className={complete ? 'task-done' : 'unfinish-task'}
+            onClick={handleToggleTask(id)}>
+            <CheckBox complete={complete} />
+            {task}
+          </Task>
+      </Li>
     </Wrapper>
   )
 }
