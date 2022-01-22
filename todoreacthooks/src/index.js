@@ -6,7 +6,7 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   body {
-    background: #98b5ff;
+    background: #fec400;
     font-family: Helvetica;
     margin: 0;
     padding: 0;

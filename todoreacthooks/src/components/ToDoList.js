@@ -15,7 +15,7 @@ const TaskTitle = styled.div`
   margin-left: 5px;
 `
 
-export default function ToDoList({ toDoList, handleToggle, handleRemoveCompletedTask }) {
+export default function ToDoList({ toDoList, handleToggle }) {
   return (
     <>
       <List>
