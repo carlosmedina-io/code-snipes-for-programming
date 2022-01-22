@@ -18,8 +18,10 @@ const Wrapper = styled.div`
   }
 
   .unchecked {
-    border: 2px solid #971fc3;
+    outline: 2px solid #971fc3;
+    outline-offset: -3px;
     background: none;
+    box-sizing: border-box;
   }
 
   .checked > .mark {
@@ -36,7 +38,7 @@ const Wrapper = styled.div`
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     opacity: 0;
-    transition: opacity 50ms ease;
+    transition: opacity 500ms ease;
 
     &::before{
       position: absolute;
@@ -59,7 +61,7 @@ const Wrapper = styled.div`
   }
 `
 
-export default function CheckBox({complete}) {
+export default function CheckBox({ complete }) {
   return (
     <Wrapper>
       <label className={complete ? 'circle checked' : 'circle unchecked'}>

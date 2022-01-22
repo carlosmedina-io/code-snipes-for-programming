@@ -19,6 +19,9 @@ const Task = styled.label`
   letter-spacing: .7px;
   padding-left: 45px;
   display: block;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
 `
 
 const Wrapper = styled.div`

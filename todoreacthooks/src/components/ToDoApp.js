@@ -15,7 +15,7 @@ const Wrapper = styled.section`
 
 const Input = styled.input.attrs(props => ({
   type: 'text',
-  maxLength: '20',
+  maxLength: '30',
 }))`
   border: none;
   color: #222;
@@ -131,7 +131,6 @@ export default function ToDoApp() {
           onClick={handleRemoveCompletedTask}>
             Remove Finished Task
         </RemoveTaskButton>
-        {/*<button onClick={handleAddToDo}>Add To Do</button>*/}
       </Footer>
     </Wrapper>
   )
