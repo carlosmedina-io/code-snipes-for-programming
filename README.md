@@ -3,13 +3,13 @@ This repository is intended to offer several tips and proposals we may apply whe
 
 ![](images/js.png)
 
-## 1 - alphabetSort.js
+## 1 - [alphabetSort.js](https://github.com/carlosmedina-io/tips-js/blob/main/alphabetSort.js)
 ```
 const array = ['x', 'c', 'f', 'a']
 alphabetSort(array) // output: ['a','c','f','x']
 ```
 
-## 2 - convertToOrdinal.js
+## 2 - [convertToOrdinal.js](https://github.com/carlosmedina-io/tips-js/blob/main/convertToOrdinal.js)
 ```
 convertToOrdinal(1)  // output: 1st
 convertToOrdinal(2)  // output: 2nd
