@@ -3,21 +3,21 @@ This repository is intended to offer several tips and proposals we may apply whe
 
 ## CSS Tips:
 
-### 1 - [Create a custom checkbox](https://github.com/carlosmedina-io/tips-js/blob/main/css-tips/custom-checkbox.html)
+### 1 - [Create a custom checkbox](https://github.com/carlosmedina-io/code-snipes-for-programming/blob/main/css-snipes/custom-checkbox.html)
 
-### 2 - [Hover effect with transform, over a Button](https://github.com/carlosmedina-io/tips-js/blob/main/css-tips/hover-effect-in-button.html)
+### 2 - [Hover effect with transform, over a Button](https://github.com/carlosmedina-io/code-snipes-for-programming/blob/main/css-snipes/hover-effect-in-button.html)
 
-### 3 - [Awesome Neon Button](https://github.com/carlosmedina-io/tips-js/blob/main/css-tips/neon-submit-button.html)
+### 3 - [Awesome Neon Button](https://github.com/carlosmedina-io/code-snipes-for-programming/blob/main/css-snipes/neon-submit-button.html)
 
 ## JS Tips:
 
-### 1 - [alphabetSort.js](https://github.com/carlosmedina-io/tips-js/blob/main/js-tips/alphabetSort.js)
+### 1 - [alphabetSort.js](https://github.com/carlosmedina-io/code-snipes-for-programming/blob/main/js-snipes/alphabetSort.js)
 ```
 const array = ['x', 'c', 'f', 'a']
 alphabetSort(array) // output: ['a','c','f','x']
 ```
 
-### 2 - [convertToOrdinal.js](https://github.com/carlosmedina-io/tips-js/blob/main/js-tips/convertToOrdinal.js)
+### 2 - [convertToOrdinal.js](https://github.com/carlosmedina-io/code-snipes-for-programming/blob/main/js-snipes/convertToOrdinal.js)
 ```
 convertToOrdinal(1)  // output: 1st
 convertToOrdinal(2)  // output: 2nd
