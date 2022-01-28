@@ -1,0 +1,103 @@
+body {
+  background: #17191a;
+  margin: 0;
+  padding: 0;
+}
+.account-wrapper {
+  max-width: 310px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  align-items: center;
+}
+.account-wrapper .account-profile {
+  margin: auto;
+  position: relative;
+  text-align: center;
+  position: relative;
+}
+.account-wrapper .account-profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: left;
+  border: 5px solid #4255d3;
+  padding: 5px;
+}
+.account-wrapper .account-profile .blob-wrap {
+  position: relative;
+  height: 30px;
+  width: 100%;
+}
+.account-wrapper .account-profile .blob {
+  position: absolute;
+  border-radius: 50%;
+}
+.account-wrapper .account-profile .blob:nth-child(1) {
+  width: 20px;
+  height: 20px;
+  left: 75px;
+  top: 105px;
+  background: #c77dff;
+  -webkit-animation: orbit 2s linear infinite alternate;
+  -moz-animation: orbit 2s linear infinite alternate;
+  -o-animation: orbit 2s linear infinite alternate;
+  animation: orbit 2s linear infinite alternate;
+}
+.account-wrapper .account-profile .blob:nth-child(2) {
+  width: 28px;
+  height: 28px;
+  background: #7b2cbf;
+  left: 70px;
+  top: 100px;
+  -webkit-animation: orbit 2.5s linear infinite alternate;
+  -moz-animation: orbit 2.5s linear infinite alternate;
+  -o-animation: orbit 2.5s linear infinite alternate;
+  animation: orbit 2.5s linear infinite alternate;
+
+}
+.account-wrapper .account-profile .blob:nth-child(3) {
+  width: 16px;
+  height: 16px;
+  background: #bc00dd;
+  left: 75px;
+  top: 105px;
+  -webkit-animation: orbit 1.5s linear infinite alternate;
+  -moz-animation: orbit 1.5s linear infinite alternate;
+  -o-animation: orbit 1.5s linear infinite alternate;
+  animation: orbit 1.5s linear infinite alternate;
+}
+@-webkit-keyframes orbit {
+  from {
+    transform: rotate(0deg) translateX(100px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(100px) rotate(-360deg);
+  }
+}
+@-moz-keyframes orbit {
+  from {
+    transform: rotate(0deg) translateX(100px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(100px) rotate(-360deg);
+  }
+}
+@-o-keyframes orbit {
+  from {
+    transform: rotate(0deg) translateX(100px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(100px) rotate(-360deg);
+  }
+}
+@keyframes orbit {
+  from {
+    transform: rotate(0deg) translateX(100px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(100px) rotate(-360deg);
+  }
+}

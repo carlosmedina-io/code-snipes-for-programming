@@ -1,0 +1,39 @@
+.frame {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  font-family: 'Open Sans', Helvetica, 'sans-serif';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2d3e50;
+}
+
+.center {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box {
+  color: #2d3e50;
+  background-color: #fff;
+  padding: 15px 25px;
+  font-weight: 700;
+  box-shadow: 15px 15px 0px #b132f9;
+  transition: all 0.5s;
+}
+
+.box:hover {
+  cursor: pointer;
+  background-color: #b132f9;
+  box-shadow: -15px -15px 0px #fff;
+  color: #fff;
+  transform: translate(10px, 10px)
+}
