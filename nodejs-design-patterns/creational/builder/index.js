@@ -1,4 +1,4 @@
-const Warrior = require('./Warrior');
+const Warrior = require('./warrior');
 
 const vegeta = Warrior.builder()
     .withName("Vegeta")
