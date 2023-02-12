@@ -1,4 +1,4 @@
-# code-snipes-for-programming repository.
+# Code snipes for programming.
 
 ### This repository is intended to offer several snipes and proposals we may apply when programming for the web.
 
