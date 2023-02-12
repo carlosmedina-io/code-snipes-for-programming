@@ -1,25 +1,25 @@
 class Warrior {
-    name(name) {
+    withName(name) {
         this.name = name;
         return this;
     }
 
-    race(race) {
+    withRace(race) {
         this.race = race;
         return this;
     }
 
-    gender(gender) {
+    withGender(gender) {
         this.gender = gender;
         return this;
     }
 
-    ocupation(ocupation) {
+    withOcupation(ocupation) {
         this.ocupation = ocupation;
         return this;
     }
 
-    transformation(transformation) {
+    withTransformation(transformation) {
         this.transformation = transformation;
         return this;
     }
