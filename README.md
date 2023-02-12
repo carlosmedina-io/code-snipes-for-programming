@@ -1,8 +1,8 @@
-# tips-for-programming repository.
+# code-snipes-for-programming repository.
 
 ### This repository is intended to offer several snipes and proposals we may apply when programming for the web.
 
-## *CSS Tips*:
+## ✅ *CSS Tips*:
 
 ### 1 - [🔥 Create a custom checkbox](https://github.com/carlosmedina-io/code-snipes-for-programming/blob/main/css-snipes/1-custom-checkbox.html)
 
@@ -12,7 +12,7 @@
 
 ### 4 - [🔥 Cool Profile Photo](https://github.com/carlosmedina-io/code-snipes-for-programming/blob/main/css-snipes/4-profile-photo.html)
 
-## *JS Tips*:
+## ✅ *JS Tips*:
 
 ### 1 - [🔥 Sort an Array Alphabetically](https://github.com/carlosmedina-io/code-snipes-for-programming/blob/main/js-snipes/alphabetSort.js)
 ```
@@ -28,3 +28,16 @@ convertToOrdinal(3)  // output: 3rd
 convertToOrdinal(7)  // output: 7th
 convertToOrdinal(20) // output: 20th
 ```
+
+## ✅ *NodeJs Design Patterns*:
+
+### Creational Design Patterns.
+- #### [🔥 Builder Design Patern - approach 1](https://github.com/carlosmedina-io/code-snipes-for-programming/tree/main/nodejs-design-patterns/creational/builder)
+- #### [🔥 Builder Design Patern - approach 2](https://github.com/carlosmedina-io/code-snipes-for-programming/tree/main/nodejs-design-patterns/creational/builder2)
+
+
+---
+
+**License**
+
+This project is under the [MIT License](https://github.com/carlosmedina-io/code-snipes-for-programming/blob/main/LICENSE).
