@@ -1,0 +1,26 @@
+{
+  "name": "code-snipes-for-programming",
+  "version": "1.0.0",
+  "description": "Just putting here some useful code (at least to me) to practice and checking from time to time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosmedina-io/code-snipes-for-programming.git"
+  },
+  "keywords": [
+    "coding",
+    "code",
+    "design",
+    "patterns",
+    "nodejs"
+  ],
+  "author": "Carlos Medina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlosmedina-io/code-snipes-for-programming/issues"
+  },
+  "homepage": "https://github.com/carlosmedina-io/code-snipes-for-programming#readme"
+}
