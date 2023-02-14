@@ -35,6 +35,7 @@ convertToOrdinal(20) // output: 20th
 - #### [🔥 Builder Design Patern - approach 1](https://github.com/carlosmedina-io/code-snipes-for-programming/tree/main/nodejs-design-patterns/creational/builder)
 - #### [🔥 Builder Design Patern - approach 2](https://github.com/carlosmedina-io/code-snipes-for-programming/tree/main/nodejs-design-patterns/creational/builder2)
 - #### [🔥 Factory Method Design Patern](https://github.com/carlosmedina-io/code-snipes-for-programming/tree/main/nodejs-design-patterns/creational/factory-method)
+- #### [🔥 Prototype Design Patern](https://github.com/carlosmedina-io/code-snipes-for-programming/tree/main/nodejs-design-patterns/creational/prototype)
 
 ---
 
