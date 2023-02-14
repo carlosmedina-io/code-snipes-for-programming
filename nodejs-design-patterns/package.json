@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-design-patterns",
+  "version": "1.0.0",
+  "description": "Code snipes for Desing Patterns in NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "design-patterns"
+  ],
+  "author": "Carlos Medina",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
